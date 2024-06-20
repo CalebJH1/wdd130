@@ -1,16 +1,6 @@
-/*html {
-    background-color: #00539f;
-    font-size: 10px;
-    font-family: "Open Sans", sans-serif;
+main {
+    max-width: 840px;
 }
-
-body {
-    width: 600px;
-    margin: 0 auto;
-    background-color: #ff9500;
-    padding: 0 20px 20px 20px;
-    border: 5px solid black;
-}*/
 
 nav {
     background-color: steelblue;
@@ -25,31 +15,35 @@ nav a {
 
 h1 {
     color: steelblue;
-    /*margin: 0;
-    padding: 20px 0;
-    color: #00539f;
-    text-shadow: 3px 3px 1px black;
-    font-size: 60px;
-    text-align: center;*/
 }
 
-img {
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    /*display: block;
-    margin: 0 auto;*/
 }
 
-/*p,
-li {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
-}*/
+p {padding: 0;}
 
-p {
-    padding: 10px;
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
