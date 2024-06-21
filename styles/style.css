@@ -2,10 +2,10 @@ main {
     max-width: 830px;
 }
 
-nav {
+/*nav {
     background-color: steelblue;
     padding: 10px;
-}
+}*/
 
 nav a {
     color: white;
