@@ -1,11 +1,11 @@
 main {
-    max-width: 830px;
+    max-width: 840px;
 }
 
-/*nav {
+nav {
     background-color: steelblue;
     padding: 10px;
-}*/
+}
 
 nav a {
     color: white;
