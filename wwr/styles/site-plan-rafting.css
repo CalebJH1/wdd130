@@ -4,6 +4,7 @@
     --primary-color: #03045E;
     --secondary-color: #00A6FB;
     --accent1-color: #FFFFFF;
+    --accent2-color: #012C02;
 
     --heading-font: 'Josefin Sans', serif;
     --paragraph-font: 'Dosis', serif;
@@ -11,6 +12,7 @@
     --nav-background-color: #03045E;
     --nav-link-color: #FFFFFF;
     --nav-hover-background-color: #00A6FB;
+    --nav-hover-link-color: #012C02;
 }
 
 body {
@@ -51,10 +53,10 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: var(--nav-hover-background-color);
 }
 
 nav a:hover {
-    color: var(--nav-background-color);
+    color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
