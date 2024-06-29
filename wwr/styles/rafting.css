@@ -17,7 +17,6 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
     padding: 20px;
 }
 
@@ -31,9 +30,15 @@ header {
     background-color: var(--nav-background-color);
 }
 
-header h1 {
+main h1 {
+    display: block;
+    opacity: 0.6;
+    padding: 85px;
+    width: 100%;
     position: absolute;
-    color: var(--accent1-color);
+    top: 0px;
+    background-color: #ffffff
+    
 }
 
 p {
@@ -62,6 +67,11 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+
+.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -73,9 +83,18 @@ article {
 }
 
 article img {
+    position: relative;
     float: right;
 }
 
 article h2 {
+    clear: both;
+}
+
+article p {
+    clear: right;
+}
+
+section {
     clear: both;
 }
