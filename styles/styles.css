@@ -1,26 +1,33 @@
 * {
-    margin: 0;
+    margin: 2;
     padding: 0;
     box-sizing: border-box;
 }
 
-main {
-    max-width: 840px;
-}
+/* main {
+     max-width: 840px; 
+} */
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid steelblue;
 }
 
 aside {
@@ -50,6 +57,7 @@ main img {
 
 p {padding: 0;}
 
+
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
@@ -67,6 +75,7 @@ footer {
 
 ul.box {
     width: 50%;
+
 }
 
 aside {
@@ -79,4 +88,23 @@ aside h2{
     position: absolute;
     top: 47px;
     left: 100px;
+}
+
+header, .grid, footer {
+    display: grid;
+    align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
