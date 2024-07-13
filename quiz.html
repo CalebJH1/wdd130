@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Quiz Form</title>
+        <meta name="description" content="My Quiz Form">
+        <meta name="author" content="Caleb Heilmann">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <h1>Basic HTML and CSS Quiz</h1>
+        <form>
+            <div class="row1">
+                <label for="q1">What does HTML stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="row2">
+                <label for="q2">What is the purpose of CSS?</label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+            </div>
+            <div class="row3">
+                <label for="q3">Which of the following CSS properties gives space between the content and the border?</label>
+                    <select id="q3" name="q3">
+                        <option value="margin">Margin</option>
+                        <option value="padding">Padding</option>
+                        <option value="space">Space</option>
+                    </select>
+            </div>
+            <div class="row4">
+                <label for="q4">In this CSS declaration, how many pixels wide is the left border?</label>
+                <img src="images/declaration.png" alt="5px-10px-15px-20px">
+                <input type="number" id="q4" name="q4">
+            </div>
+        </form>
+    </body>
+</html>
