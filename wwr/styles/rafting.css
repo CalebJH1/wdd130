@@ -299,3 +299,10 @@ button:hover {
     background-color: var(--nav-hover-link-color);
     color: var(--accent1-color);
 }
+
+footer a {
+    text-align: center;
+    margin: 1rem auto;
+    color: white;
+    position: relative;
+}
