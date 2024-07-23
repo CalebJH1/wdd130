@@ -392,14 +392,17 @@ h1 {
     height: 400px;
 }
 
-#squidward {
-    height: auto;
-    width: auto;
-}
-
 .call-to-action p {
     background-color: var(--primary-color);
     color: var(--accent1-color);
     font-size: 2rem;
     width: 500px;
+}
+
+#contact-form {
+    margin: 1rem auto;
+}
+
+#purpose-and-offerings {
+    text-align: center;
 }
