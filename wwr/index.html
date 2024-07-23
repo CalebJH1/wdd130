@@ -13,7 +13,7 @@
         <header>
             <img src="images/logo.png" alt="logo">
             <nav>
-                <a href="../index.html" target="_blank">Home Page</a>
+                <a href="index.html" target="_blank">Home Page</a>
                 <a href="about.html" target="_blank">About Page</a>
                 <a href="trips.html" target="_blank">Trips</a>
                 <a href="contact.html" target="_blank">Contact</a>
@@ -21,13 +21,14 @@
         </header>
         <main>
             <div class="hero">
-                <img src="../images/squidward-background.jpeg" id="heroimage" alt="hero">
+                <img src="images/wide-image.png" id="heroimage" alt="hero">
                 <h1>Raging Waters</h1>
                 <article>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequuntur perspiciatis reiciendis modi placeat similique aspernatur hic sunt, laborum excepturi aliquid quos consequatur iste aut, tenetur libero culpa nulla possimus reprehenderit vero. Ex, quasi nobis!</p>
                     <img src="images/happy-rafters.jpg" alt="happy-client">      
                 </article>
             </div>
+            <h1>Form</h1>
             <form>
                 <div class="form-item">
                     <label for="fullname">Full Name:</label>
@@ -41,11 +42,11 @@
                     <label>Purpose:</label>
                     <div class="radio">
                         <label class="radio">General Inquiry</label>
-                        <input type="radio" name="purpose" value="general-inquiry">
+                        <input type="radio" id="general" name="general" value="general-inquiry">
                         <label class="radio">Reservation Question</label>
-                        <input type="radio" name="purpose" value="reservation-question">
+                        <input type="radio" id="reservation" name="reservation" value="reservation-question">
                         <label class="radio">Website Suggestion</label>
-                        <input type="radio" name="purpose" value="website-suggestion">
+                        <input type="radio" id="website" name="website" value="website-suggestion">
                     </div>
                 </div>
                 <div class="form-item">
@@ -63,7 +64,15 @@
                 </div>
             </div>
             </form>
-            <a href="trips.html" target="_blank">Take a look at our exciting trips.</a>
+            <h1>Call to Action</h1>
+            <a href="trips.html" class="call-to-action" target="_blank"><p>Take a look at our exciting trips.</p></a>
+            <h1>Purpose and Offerings</h1>
+            <div class="home-grid">
+                <img src="images/img-one.png" alt="image-one">
+                <p>Our purpose is to create an unforgettable experience as well as getting paid. If you hate busy work but love rafting, then this is for you. If you're seriously considering this, be sure to look at our trips as well as contacting us.</p>
+                <img src="images/img-two.png" alt="image=two">
+                <p>There are a few offerings open. I'm just looking for someone with a positive attitude as well as a healthy body. Act fast, because these positions will fill up fast.</p>
+            </div>
         </main>
         <footer>
             <p>©️ 2024 | Raging Waters | Caleb</p>
