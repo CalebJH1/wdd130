@@ -483,6 +483,7 @@ h1 {
     margin: 1rem auto;
 }
 
-#purpose-and-offerings {
+#purpose-and-offerings, #information {
     text-align: center;
 }
+
